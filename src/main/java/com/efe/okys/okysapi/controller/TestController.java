@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
-
     @GetMapping("/")
     public String home() {
-        return "OKYS API çalışıyor 🚀";
+        return "OKYS API is up!";
     }
 }
+
